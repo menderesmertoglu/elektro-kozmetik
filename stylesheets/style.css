@@ -31,16 +31,13 @@ box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);}
 .navigation ul li{border:none;}
 .homepage-features{margin-bottom:20px;}
 .homepage-features2{border-top:#a22271 1px solid;padding:20px 0 10px 0;}
-.product{-webkit-border-top-left-radius: 20px;
--webkit-border-top-right-radius: 20px;
--moz-border-radius-topleft: 20px;
--moz-border-radius-topright: 20px;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
+.product{
 background:#FFF;
--webkit-box-shadow: 0 8px 3px -5px rgba(0,0,0,.2);
--moz-box-shadow: 0 8px 3px -5px rgba(0,0,0,.2);
-box-shadow: 0 8px 3px -5px rgba(0,0,0,.2);
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border: none;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0,0,0,.3);
 text-align:center;
 height:auto;
 padding-bottom:10px;
