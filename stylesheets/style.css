@@ -1,31 +1,143 @@
 @charset "UTF-8";
 /* CSS Document */
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('../fonts/Ubuntu-R-webfont.eot'); 
+    src: url('../fonts/Ubuntu-R-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-R-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-R-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-R-webfont.svg#UbuntuRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuItalic';
+    src: url('../fonts/Ubuntu-RI-webfont.eot');
+    src: url('../fonts/Ubuntu-RI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-RI-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-RI-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-RI-webfont.svg#UbuntuItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('../fonts/Ubuntu-B-webfont.eot');
+    src: url('../fonts/Ubuntu-B-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-B-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-B-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-B-webfont.svg#UbuntuBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuBoldItalic';
+    src: url('../fonts/Ubuntu-BI-webfont.eot');
+    src: url('../fonts/Ubuntu-BI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-BI-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-BI-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-BI-webfont.svg#UbuntuBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('../fonts/Ubuntu-L-webfont.eot');
+    src: url('../fonts/Ubuntu-L-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-L-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-L-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-L-webfont.svg#UbuntuLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuLightItalic';
+    src: url('../fonts/Ubuntu-LI-webfont.eot');
+    src: url('../fonts/Ubuntu-LI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-LI-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-LI-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-LI-webfont.svg#UbuntuLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('../fonts/Ubuntu-M-webfont.eot');
+    src: url('../fonts/Ubuntu-M-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-M-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-M-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-M-webfont.svg#UbuntuMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuMediumItalic';
+    src: url('../fonts/Ubuntu-MI-webfont.eot');
+    src: url('../fonts/Ubuntu-MI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-MI-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-MI-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-MI-webfont.svg#UbuntuMediumItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UbuntuCondensedRegular';
+    src: url('../fonts/Ubuntu-C-webfont.eot');
+    src: url('../fonts/Ubuntu-C-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-C-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-C-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-C-webfont.svg#UbuntuCondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 .header{width:100%;}
 .header-top{width:100%;padding:5px 0 5px 0;background:#000;}
 .phone{background: url(../images/social-sprite.png) -46px 0 no-repeat;padding:0 0 0 20px;height:23px;}
 .phone a{margin-top:5px;text-decoration:none;color:#fff;font-size:13px;height:13px;float:left;}
-.header-bottom{width:100%;padding-bottom:20px;padding-top:10px;border-bottom:#901d78 2px solid; background:#a22271 url(../images/noise.png);
+.header-bottom{width:100%;padding-bottom:20px;padding-top:10px;border-bottom:#901d78 2px solid; background:#a22271 url(../images/header-bg.jpg) center no-repeat;} 
 
-}
-.header-bg{background:url(../images/header-bg.jpg) center no-repeat;}
+
+
 .container{max-width: 1080px;
 margin: 0 auto;
 background: white;
--moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
--webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
--o-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
 padding-top: 20px;
 padding-left: 0;
 padding-right: 0;
-padding-bottom:20px;}
+padding-bottom:20px;margin-top:20px;}
 .logo a{text-decoration:none;}
 .slider{max-width:1080px;margin:0 auto;background: white;
--moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
--webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
--o-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);}
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);margin-top:20px;}
 .navigation{border:none;}
 .navigation ul{border:none;}
 .navigation ul li{border:none;}
@@ -33,33 +145,45 @@ box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);}
 .homepage-features2{padding:20px 0 10px 0;}
 .product{
 background:#FFF;
--webkit-border-radius: 2px;
--moz-border-radius: 2px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
 border: none;
-border-radius: 5px;
-box-shadow: 0 0 5px rgba(0,0,0,.3);
+margin-bottom:10px;
 text-align:center;
 height:auto;
 padding-bottom:10px;
-/* SVG fallback(Opera 11.10-, IE9) */
-background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjpyZ2JhKDI1NSwyNTUsMjU1LDEpOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOnJnYmEoMjI1LDIyNywyMjcsMSk7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
 
-/* Opera 11.10+ */
-background: -o-linear-gradient(top, rgba(255,255,255,1), rgba(225,227,227,1));
-
-/* Firefox 3.6+ */
-background: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(225,227,227,1));
-
-/* Chrome 7+ & Safari 5.03+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255,255,255,1)), color-stop(1, rgba(225,227,227,1)));
-
-/* IE5.5 - IE7 */
-filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFFFF,EndColorStr=#FFE1E3E3);
-
-/* IE8 */
--ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#FFFFFFFF,EndColorStr=#FFE1E3E3)"
 }
-.homepage-logos{padding:10px 10px 20px 10px; 0;background:#e6e6e6;width:100%;border-top:#c0c0c0 5px solid;border-bottom:#c0c0c0 5px solid;}
+.call-to-action{margin-bottom:20px;}
+.call-to-action-btn{margin:10px 0 0 0;width:200px;background-color: #faa732;
+background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+background-image: -ms-linear-gradient(top, #fbb450, #f89406);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+background-image: -o-linear-gradient(top, #fbb450, #f89406);
+background-image: linear-gradient(top, #fbb450, #f89406);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89406', GradientType=0);
+border-color: #f89406 #f89406 #ad6704;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.call-to-action-btn:hover{margin:10px 0 0 0;width:200px;background-color: #faa732;
+background-image: -moz-linear-gradient(top, #f89406, #fbb450);
+background-image: -ms-linear-gradient(top, #f89406, #fbb450);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f89406), to(#fbb450));
+background-image: -webkit-linear-gradient(top, #f89406, #fbb450);
+background-image: -o-linear-gradient(top, #f89406, #fbb450);
+background-image: linear-gradient(top, #f89406, #fbb450);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f89406', endColorstr='#fbb450', GradientType=0);
+border-color: #f89406 #f89406 #ad6704;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);}
+.homepage-logos{padding:10px 10px 20px 10px; 0;background:#e6e6e6;width:100%;border-top:#c0c0c0 2px solid;border-bottom:#c0c0c0 2px solid;}
 .homepage-logos h3{color:#fff;}
 
 .footer{width:100%;background:#000;color:#fff;padding-bottom:20px;}
@@ -116,5 +240,15 @@ line-height: 25px;
 }
 /*gallery*/
 .gallery-image{margin-top:10px;}
+.footer-logo{text-align:center;padding-top:10px;border-top:rgb(51, 51, 51) 1px solid; margin-top:10px;}
 
 
+@media screen and (max-width: 960px) {
+ .header-bottom{width:100%;padding-bottom:20px;padding-top:10px;border-bottom:#901d78 2px solid; background:#a22271; } 
+  
+ 
+  
+ 
+  
+ 
+}
