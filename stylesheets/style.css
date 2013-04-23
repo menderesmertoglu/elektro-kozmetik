@@ -113,7 +113,7 @@
 .header-top{width:100%;padding:5px 0 5px 0;background:#000;}
 .phone{background: url(../images/social-sprite.png) -46px 0 no-repeat;padding:0 0 0 20px;height:23px;}
 .phone a{margin-top:5px;text-decoration:none;color:#fff;font-size:13px;height:13px;float:left;}
-.header-bottom{width:100%;padding-bottom:20px;padding-top:10px;border-bottom:#901d78 2px solid; background:#a22271 url(../images/header-bg.jpg) center no-repeat;} 
+.header-bottom{width:100%;padding-bottom:0px;border-bottom:#901d78 2px solid; background:#a22271 url(../images/header-bg.jpg) center no-repeat;} 
 
 
 
@@ -141,7 +141,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);margin-top:20px;}
 .navigation{border:none;}
 .navigation ul{border:none;}
 .navigation ul li{border:none;}
-.homepage-features{margin-bottom:20px;}
+.homepage-features{margin-bottom:20px;margin-top:20px;}
 .homepage-features2{padding:20px 0 10px 0;}
 .product{
 background:#FFF;
@@ -158,6 +158,7 @@ height:auto;
 padding-bottom:10px;
 
 }
+.product-head{border-bottom:#4c4c4c 1px solid;margin-bottom:20px !important;}
 .call-to-action{margin-bottom:20px;}
 .call-to-action-btn{margin:10px 0 0 0;width:200px;background-color: #faa732;
 background-image: -moz-linear-gradient(top, #fbb450, #f89406);
@@ -191,6 +192,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);}
 
 .color1{color:#fff !important;}
 .color2{color:#4c4c4c !important}
+.color3{color:#e0e0e0 !important}
 .facebook{width:23px;height:23px;background:url(../images/social-sprite.png) 0 0 no-repeat;display:block;text-indent:-9999px;}
 .facebook:hover{width:23px;height:23px;background:url(../images/social-sprite.png) 0 -23px no-repeat;display:block;text-indent:-9999px;cursor:pointer;}
 .tweeter{width:23px;height:23px;background:url(../images/social-sprite.png) -23px 0 no-repeat;display:block;text-indent:-9999px;}
@@ -245,7 +247,7 @@ line-height: 25px;
 
 @media screen and (max-width: 960px) {
  .header-bottom{width:100%;padding-bottom:20px;padding-top:10px;border-bottom:#901d78 2px solid; background:#a22271; } 
-  
+  .nav-bar > li > a:first-child { position: relative; padding: 0 20px; display: block; text-decoration: none; font-size: 12px; }
  
   
  
